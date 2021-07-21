@@ -18,5 +18,6 @@ public class CustomerRepository implements ICustomerRepository{
         query.setParameter("firstName",customer.getFirstName());
         query.setParameter("lastName",customer.getLastName());
         return query.executeUpdate() == 0;
+        //vvv
     }
 }
